@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ AI Generator - Professional Tool</title>
+    <link rel="stylesheet" href="/static/css/styles.css?v=2024">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            background: #0f172a !important;
+            color: #f8fafc !important;
+            transition: all 0.3s ease;
+        }
+        
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0f172a;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #334155;
+            border-top: 4px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-brain"></i>
+                    <h1>MCQ AI Generator</h1>
+                </div>
+                <p class="subtitle">Intelligent Multiple Choice Question Creation</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <div class="tabs-wrapper">
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="domain" id="domain-tab-btn">
+                            <i class="fas fa-globe"></i>
+                            <span>Domain Based</span>
+                        </button>
+                        <button class="tab-button" data-tab="document" id="document-tab-btn">
+                            <i class="fas fa-file-upload"></i>
+                            <span>Document Upload</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tab-content-wrapper">
+                    <div id="domain-tab" class="tab-content active">
+                        <div class="form-header">
+                            <h2><i class="fas fa-cogs"></i> Generate from Domain Knowledge</h2>
+                            <p>Create MCQs based on specific domains or topics using AI knowledge</p>
+                        </div>
+                        
+                        <form id="domain-form" class="professional-form">
+                            <div class="form-group">
+                                <label for="domain"><i class="fas fa-tag"></i> Domain/Topic</label>
+                                <input type="text" id="domain" placeholder="e.g., Data Science, Machine Learning, Biology" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="count"><i class="fas fa-list-ol"></i> Number of Questions</label>
+                                    <input type="number" id="count" value="10" min="1" max="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="difficulty"><i class="fas fa-chart-line"></i> Difficulty Level</label>
+                                    <select id="difficulty">
+                                        <option value="easy">Easy</option>
+                                        <option value="medium" selected>Medium</option>
+                                        <option value="hard">Hard</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="source"><i class="fas fa-database"></i> Knowledge Source</label>
+                                <select id="source">
+                                    <option value="main_brain">AI Knowledge Base</option>
+                                    <option value="serp_api">Web Search (SERP)</option>
+                                    <option value="wikipedia">Wikipedia</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email (Optional)</label>
+                                <input type="email" id="email" placeholder="your@email.com">
+                                <small>Receive the generated MCQs via email</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="custom-prompt"><i class="fas fa-edit"></i> Custom Instructions (Optional)</label>
+                                <textarea id="custom-prompt" placeholder="Add specific instructions for question generation..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-magic"></i>
+                                Generate MCQs
+                            </button>
+                        </form>
+                    </div>
+
+                    <div id="document-tab" class="tab-content">
+                        <div class="form-header">
+                            <h2><i class="fas fa-file-alt"></i> Generate from Document</h2>
+                            <p>Upload your document and create MCQs based on its content</p>
+                        </div>
+                        
+                        <form id="document-form" class="professional-form" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="document"><i class="fas fa-cloud-upload-alt"></i> Upload Document</label>
+                                <div class="file-upload-wrapper">
+                                    <input type="file" id="document" accept=".pdf,.docx,.pptx,.txt" required>
+                                    <div class="file-upload-display">
+                                        <i class="fas fa-file-upload"></i>
+                                        <span>Choose file or drag and drop</span>
+                                        <small>Supported: PDF, DOCX, PPTX, TXT</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="doc-count"><i class="fas fa-list-ol"></i> Number of Questions</label>
+                                    <input type="number" id="doc-count" value="10" min="1" max="50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="doc-difficulty"><i class="fas fa-chart-line"></i> Difficulty Level</label>
+                                    <select id="doc-difficulty">
+                                        <option value="easy">Easy</option>
+                                        <option value="medium" selected>Medium</option>
+                                        <option value="hard">Hard</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="doc-email"><i class="fas fa-envelope"></i> Email (Optional)</label>
+                                <input type="email" id="doc-email" placeholder="your@email.com">
+                                <small>Receive the generated MCQs via email</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="doc-custom-prompt"><i class="fas fa-edit"></i> Custom Instructions (Optional)</label>
+                                <textarea id="doc-custom-prompt" placeholder="Add specific instructions for question generation..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-magic"></i>
+                                Generate MCQs
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="results" class="results-section">
+                    <div id="loading" class="loading hidden">
+                        <div class="loading-content">
+                            <div class="spinner"></div>
+                            <h3>Generating MCQs...</h3>
+                            <p>Please wait while we create your questions</p>
+                        </div>
+                    </div>
+
+                    <div id="success" class="result-card success hidden">
+                        <div class="result-header">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>MCQs Generated Successfully!</h3>
+                        </div>
+                        <div class="result-content">
+                            <p id="success-message"></p>
+                            <div class="action-buttons">
+                                <button id="download-btn" class="btn-primary">
+                                    <i class="fas fa-download"></i>
+                                    Download PDF
+                                </button>
+                                <button id="copy-btn" class="btn-secondary">
+                                    <i class="fas fa-link"></i>
+                                    Copy Link
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="error" class="result-card error hidden">
+                        <div class="result-header">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h3>Generation Failed</h3>
+                        </div>
+                        <div class="result-content">
+                            <p id="error-message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MCQ AI Generator. Powered by Advanced AI Technology.</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js?v=2024"></script>
+    <script>
+        window.addEventListener('load', function() {
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            if (loadingOverlay) {
+                loadingOverlay.classList.add('hidden');
+                setTimeout(() => {
+                    loadingOverlay.remove();
+                }, 500);
+            }
+        });
+        
+        setTimeout(function() {
+            if (getComputedStyle(document.body).backgroundColor === 'rgb(248, 250, 252)' || 
+                getComputedStyle(document.body).backgroundColor === 'white') {
+                document.body.style.background = '#0f172a';
+                document.body.style.color = '#f8fafc';
+                console.warn('Dark theme CSS not loaded, applying fallback');
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

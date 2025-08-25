@@ -1,0 +1,290 @@
+2025-08-22 00:58:32,693 - MCQ_Agent - INFO - This is an INFO message
+2025-08-22 00:58:32,693 - MCQ_Agent - WARNING - This is a WARNING message
+2025-08-22 00:58:32,693 - MCQ_Agent - ERROR - This is an ERROR message
+2025-08-22 00:58:32,693 - MCQ_Agent - CRITICAL - This is a CRITICAL message
+2025-08-22 01:10:27,324 - MCQ_Agent - ERROR - Error extracting text from '/Users/pasindumalinda/Downloads/Job_Replacement_in_the_Age_of_AI_Challenges,_Opportunities,_and_Future_Directions.pptx': Unsupported file format: .pptx'
+2025-08-22 01:20:59,209 - root - ERROR - init had unexpected keyword argument(s): token
+2025-08-22 01:21:25,474 - root - ERROR - init had unexpected keyword argument(s): token
+2025-08-22 01:22:04,809 - root - ERROR - init had unexpected keyword argument(s): token
+2025-08-22 01:22:06,036 - MCQ_Agent - INFO - Document added to vector store with ID: d5c28f8a-2521-4f31-8a75-2deef3b88b7b
+2025-08-22 01:22:06,036 - MCQ_Agent - INFO - ✅ Document inserted with ID d5c28f8a-2521-4f31-8a75-2deef3b88b7b
+2025-08-22 01:22:06,037 - MCQ_Agent - INFO - ✅ Search results: ['']
+2025-08-22 01:22:49,470 - MCQ_Agent - INFO - Document added to vector store with ID: dc2a3d67-2833-4494-8550-dc7fc5f1daef
+2025-08-22 01:22:49,471 - MCQ_Agent - INFO - ✅ Document inserted with ID dc2a3d67-2833-4494-8550-dc7fc5f1daef
+2025-08-22 01:22:49,471 - MCQ_Agent - INFO - ✅ Search results: ['']
+2025-08-22 01:24:55,781 - MCQ_Agent - INFO - Document added to vector store with ID: 19eaf9fa-d127-4065-905e-ae4a12dacfca
+2025-08-22 01:24:55,782 - MCQ_Agent - INFO - ✅ Document inserted with ID 19eaf9fa-d127-4065-905e-ae4a12dacfca
+2025-08-22 01:24:55,782 - MCQ_Agent - INFO - ✅ Search results: ['']
+2025-08-22 01:26:58,596 - MCQ_Agent - INFO - Mock SERP API called with query=Artificial Intelligence
+2025-08-22 01:26:58,596 - MCQ_Agent - ERROR - Wikipedia error: fake_requests_get() got an unexpected keyword argument 'headers'
+2025-08-22 01:31:19,295 - MCQ_Agent - INFO - Mock SERP API called with query=Artificial Intelligence
+2025-08-22 01:36:22,394 - MCQ_Agent - INFO - Mock SERP API called with query=Artificial Intelligence
+2025-08-22 01:42:03,471 - MCQ_Agent - INFO - Email sent successfully to malindap288@gmail.com
+2025-08-22 01:44:32,284 - MCQ_Agent - INFO - Email sent successfully to pasidumalinda998@gmail.com
+2025-08-22 01:45:58,823 - MCQ_Agent - INFO - Email sent successfully to pasidumalinda998@gmail.com
+2025-08-22 01:47:00,945 - MCQ_Agent - INFO - Email sent successfully to pasidumalinda998@gmail.com
+2025-08-22 01:54:11,679 - MCQ_Agent - INFO - Email sent successfully to pasidumalinda998@gmail.com
+2025-08-22 01:57:37,041 - MCQ_Agent - ERROR - Error sending email: HTTP Error 403: Forbidden
+2025-08-22 01:58:07,340 - MCQ_Agent - INFO - Email sent successfully to malindap288@gmail.com
+2025-08-22 02:00:17,202 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-22 02:03:48,587 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 02:03:51,834 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1VgV7nFUTAerPPdk74WX_I1L6fq7eOn3k
+2025-08-22 02:08:21,752 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 02:12:22,305 - MCQ_Agent - ERROR - Error generating MCQs: 'InferenceClient' object has no attribute 'chat'
+2025-08-22 02:12:25,793 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1QhnEfXnIRqPa_8gTelS5glfH19jG6Nzh
+2025-08-22 02:12:27,459 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-22 02:16:57,164 - MCQ_Agent - ERROR - Error adding document to vector store: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a785c0-7f5f8bac090dcd457a040d35;8637ad73-c012-49ba-8ab9-03f704c6b1f7)
+2025-08-22 02:16:57,165 - MCQ_Agent - ERROR - Error generating MCQs from context: 'InferenceClient' object has no attribute 'chat'
+2025-08-22 02:17:00,129 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1575Bjw7sc7vh6qzKDmlHh1K8MNAbBrsw
+2025-08-22 02:21:12,055 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 02:22:21,862 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 02:22:25,472 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78709-21fbcd246e7ec2882f185d5f;c5ac09c8-8ee8-41bf-83cb-e1ed97e44a6c)
+2025-08-22 02:22:26,128 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:26,131 - MCQ_Agent - ERROR - Failed to get embedding for chunk 0
+2025-08-22 02:22:26,487 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870a-51aadc500e9c00095f1729ad;07fe33d6-7c13-4639-a411-8577116c1dde)
+2025-08-22 02:22:27,087 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:27,089 - MCQ_Agent - ERROR - Failed to get embedding for chunk 1
+2025-08-22 02:22:27,512 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870b-0e3d93102a9b764e6eea6ede;6058a1db-48c0-4cc4-8d74-0b54e01a4cf1)
+2025-08-22 02:22:28,094 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:28,096 - MCQ_Agent - ERROR - Failed to get embedding for chunk 2
+2025-08-22 02:22:28,543 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870c-5d9019124b05295460507dd9;3ea3de55-ed8f-45b5-aa1b-f57d035de3ba)
+2025-08-22 02:22:29,126 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:29,128 - MCQ_Agent - ERROR - Failed to get embedding for chunk 3
+2025-08-22 02:22:29,478 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870d-0c5ee6e52f7420b508095a26;2cf569e2-bfb0-4e97-a135-e44fd8e0b111)
+2025-08-22 02:22:30,081 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:30,083 - MCQ_Agent - ERROR - Failed to get embedding for chunk 4
+2025-08-22 02:22:30,465 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870e-4e02c5770356aa6c72567256;34f3757f-da89-4d93-bbaa-d62321572894)
+2025-08-22 02:22:31,109 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:31,112 - MCQ_Agent - ERROR - Failed to get embedding for chunk 5
+2025-08-22 02:22:31,478 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7870f-217ad22d4ed6c3dc755b5da7;624807b7-bab3-472e-8dc3-2e14c7a7e106)
+2025-08-22 02:22:32,093 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:32,094 - MCQ_Agent - ERROR - Failed to get embedding for chunk 6
+2025-08-22 02:22:32,479 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78710-1ab5327471d543da7533fe3d;4ac8a34e-a2b7-4ea4-af45-e17f03a22ed6)
+2025-08-22 02:22:33,143 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:33,146 - MCQ_Agent - ERROR - Failed to get embedding for chunk 7
+2025-08-22 02:22:33,499 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78711-70758e8a778ae93f2b9523d2;891594fd-a2c3-4f3f-9ba3-ef91f5fa3495)
+2025-08-22 02:22:34,268 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:34,271 - MCQ_Agent - ERROR - Failed to get embedding for chunk 8
+2025-08-22 02:22:34,667 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78712-69e3e1fd029875f2342c6832;aedf1d17-013d-428b-8b8b-10aced54daa5)
+2025-08-22 02:22:35,395 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:35,398 - MCQ_Agent - ERROR - Failed to get embedding for chunk 9
+2025-08-22 02:22:35,770 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78713-74c9fc2d425b8c2b70d6f740;4d85a764-5347-43ed-8f0d-bb0b0bf1e1a4)
+2025-08-22 02:22:36,524 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:36,526 - MCQ_Agent - ERROR - Failed to get embedding for chunk 10
+2025-08-22 02:22:36,930 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78714-0898a533586f5d692afb4869;ef015d92-1764-4fc8-ac68-98fd9f34af61)
+2025-08-22 02:22:37,752 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:37,755 - MCQ_Agent - ERROR - Failed to get embedding for chunk 11
+2025-08-22 02:22:38,159 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78716-67cf47882db472cf6ca15466;1b7b8eef-28d6-4387-b90c-ccc1b52c9fb6)
+2025-08-22 02:22:38,894 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:38,897 - MCQ_Agent - ERROR - Failed to get embedding for chunk 12
+2025-08-22 02:22:39,285 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78717-5097c7896f5d337a0439d1bb;834e31d9-2ad0-4df0-827d-8f61e147ee37)
+2025-08-22 02:22:39,902 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:39,905 - MCQ_Agent - ERROR - Failed to get embedding for chunk 13
+2025-08-22 02:22:40,283 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78718-6ec875b17d87b78c796e74bd;aef6bf17-84d1-4a1a-8d68-7f4c94c6e26b)
+2025-08-22 02:22:41,030 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:41,033 - MCQ_Agent - ERROR - Failed to get embedding for chunk 14
+2025-08-22 02:22:41,437 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78719-51b9d2544d6598c4467ffff3;402bcba0-79f8-418a-ad50-ca7a82fe6e19)
+2025-08-22 02:22:42,108 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:42,110 - MCQ_Agent - ERROR - Failed to get embedding for chunk 15
+2025-08-22 02:22:42,488 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7871a-4c9206555704d658736b6f47;6048c11b-1c2c-4e5d-bd5f-81b8d762da81)
+2025-08-22 02:22:43,180 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:43,183 - MCQ_Agent - ERROR - Failed to get embedding for chunk 16
+2025-08-22 02:22:43,589 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7871b-35a09bac7792ad4b11ca681f;ffc45303-fc85-44f2-be64-df0f3efa5063)
+2025-08-22 02:22:44,186 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:44,189 - MCQ_Agent - ERROR - Failed to get embedding for chunk 17
+2025-08-22 02:22:44,591 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7871c-5dc2f5730483059b7892875e;0967cf9c-2f00-4491-957b-e4125b8f8193)
+2025-08-22 02:22:45,328 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:45,351 - MCQ_Agent - ERROR - Failed to get embedding for chunk 18
+2025-08-22 02:22:46,175 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7871e-7d3061114dce91a207662ab0;c390dcd8-22f4-4fb7-8dec-c63b7ce019a6)
+2025-08-22 02:22:46,825 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:46,828 - MCQ_Agent - ERROR - Failed to get embedding for chunk 19
+2025-08-22 02:22:47,188 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7871f-0c26b82648066f3c1529a4a1;6c2ac900-2f36-44f0-b65c-dcd91e90bdd3)
+2025-08-22 02:22:47,799 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:47,802 - MCQ_Agent - ERROR - Failed to get embedding for chunk 20
+2025-08-22 02:22:48,300 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78720-57458f6d2ce4f75e3a36ecf9;2f15341a-cb1a-4416-863a-89865ceba734)
+2025-08-22 02:22:48,923 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:48,924 - MCQ_Agent - ERROR - Failed to get embedding for chunk 21
+2025-08-22 02:22:49,309 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78721-016053e5497157f91e65d3b3;4dc366c5-4f59-4f05-bb6c-49953da3c6ca)
+2025-08-22 02:22:50,042 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:50,045 - MCQ_Agent - ERROR - Failed to get embedding for chunk 22
+2025-08-22 02:22:50,426 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78722-267650e3790a383b03cbe65b;c420539b-5da4-4279-adbf-7f4dc8846baf)
+2025-08-22 02:22:51,117 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:51,120 - MCQ_Agent - ERROR - Failed to get embedding for chunk 23
+2025-08-22 02:22:51,480 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78723-5351f99f17330af0266bd9a1;b9e07464-79ff-4824-bb0b-13cf7ae0b92c)
+2025-08-22 02:22:52,093 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:52,096 - MCQ_Agent - ERROR - Failed to get embedding for chunk 24
+2025-08-22 02:22:52,514 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78724-45142fbc4c50e3cf636b2069;b6af1e2c-9f9e-4ff0-8915-014245eb6d8d)
+2025-08-22 02:22:53,248 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:53,251 - MCQ_Agent - ERROR - Failed to get embedding for chunk 25
+2025-08-22 02:22:53,727 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78725-76d560ea34250d923b49e0db;ccf273d2-ba17-4947-a34f-f21dd5636af6)
+2025-08-22 02:22:54,442 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:54,445 - MCQ_Agent - ERROR - Failed to get embedding for chunk 26
+2025-08-22 02:22:54,794 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78726-698a6add154f66434fe56432;96556cb1-1d06-4ea1-8ff6-012ce764af7c)
+2025-08-22 02:22:55,880 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:55,883 - MCQ_Agent - ERROR - Failed to get embedding for chunk 27
+2025-08-22 02:22:56,388 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78728-5ad2f8c14fd9ae9f09ecfe3e;881a8d06-7089-4d8c-807c-6f98b69e2a6d)
+2025-08-22 02:22:57,063 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:57,064 - MCQ_Agent - ERROR - Failed to get embedding for chunk 28
+2025-08-22 02:22:57,516 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78729-44687eae4ae9bc4843c64a2b;f9474a47-5d38-45a1-8624-06d788a00fea)
+2025-08-22 02:22:58,218 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:58,221 - MCQ_Agent - ERROR - Failed to get embedding for chunk 29
+2025-08-22 02:22:58,614 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7872a-747de15a226c2c5978413573;29a8816b-ca3d-46f3-bdca-b862f08718f3)
+2025-08-22 02:22:59,357 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:22:59,361 - MCQ_Agent - ERROR - Failed to get embedding for chunk 30
+2025-08-22 02:22:59,721 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7872b-7d0c34b816c5f451455423d8;4901ac87-ee6e-4ce6-b335-c7953db8af80)
+2025-08-22 02:23:00,380 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:23:00,381 - MCQ_Agent - ERROR - Failed to get embedding for chunk 31
+2025-08-22 02:23:00,795 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7872c-5d0af0410f5cd7371e1d0afc;41fb1164-7e79-45e7-a196-2d22c563bb3d)
+2025-08-22 02:23:01,511 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:23:01,514 - MCQ_Agent - ERROR - Failed to get embedding for chunk 32
+2025-08-22 02:23:01,916 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7872d-400eeb667179f5f37c944f35;76c321f1-0456-40c3-80b4-7bcd6f32f338)
+2025-08-22 02:23:02,633 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:23:02,635 - MCQ_Agent - ERROR - Failed to get embedding for chunk 33
+2025-08-22 02:23:02,994 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7872e-1a5c4c983c9a0ae01b7b9e41;c38d551d-4bae-4737-95a5-39be667a8a77)
+2025-08-22 02:23:03,760 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:23:03,762 - MCQ_Agent - ERROR - Failed to get embedding for chunk 34
+2025-08-22 02:23:04,160 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78730-4ffa8def45f7878011adcd00;9f1c6178-d627-4a16-96de-aa800abb548c)
+2025-08-22 02:23:04,935 - MCQ_Agent - ERROR - Embedding API error: 400 - {"error":"SentenceSimilarityPipeline.__call__() missing 1 required positional argument: 'sentences'"}
+2025-08-22 02:23:04,938 - MCQ_Agent - ERROR - Failed to get embedding for chunk 35
+2025-08-22 02:23:05,304 - MCQ_Agent - WARNING - InferenceClient failed, trying direct API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78731-6fe9372d73b11de2307ba71c;e2e6b1aa-2b41-426f-ae20-ab12935cf70b)
+2025-08-22 02:26:32,536 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 02:27:17,832 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882d-61f226e7640ddf1f1737521c;54630f35-6413-4351-8716-8367f7c17eda)
+2025-08-22 02:27:17,833 - MCQ_Agent - ERROR - Failed to get embedding for chunk 0
+2025-08-22 02:27:18,165 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882e-59b00fb24a8043b129f45984;bb5282e5-cbd2-4654-a18d-991155f7e9d1)
+2025-08-22 02:27:18,165 - MCQ_Agent - ERROR - Failed to get embedding for chunk 1
+2025-08-22 02:27:18,922 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882e-293b187714c57db6697856a1;7740825e-5501-4fad-972e-bdcd015bdd78)
+2025-08-22 02:27:18,922 - MCQ_Agent - ERROR - Failed to get embedding for chunk 2
+2025-08-22 02:27:19,245 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882f-1e1f90df5d43e87e6ec2654c;487eb7af-2845-49fe-9791-0f0fd76d75c7)
+2025-08-22 02:27:19,246 - MCQ_Agent - ERROR - Failed to get embedding for chunk 3
+2025-08-22 02:27:19,623 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882f-06a0739229ef7c9606f64406;0556aca2-0a0c-4e5b-bf65-100ebec30db5)
+2025-08-22 02:27:19,623 - MCQ_Agent - ERROR - Failed to get embedding for chunk 4
+2025-08-22 02:27:19,954 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7882f-1e48555a00064e540d09fa90;3f6bc331-3896-432b-9439-e8f5b7057941)
+2025-08-22 02:27:19,955 - MCQ_Agent - ERROR - Failed to get embedding for chunk 5
+2025-08-22 02:27:20,383 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78830-6c588ecd58bbf3b3403f9bd8;af8a881a-c83d-477c-9963-64ea8fbcfcc2)
+2025-08-22 02:27:20,384 - MCQ_Agent - ERROR - Failed to get embedding for chunk 6
+2025-08-22 02:27:20,713 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78830-121a33c34fbcb93820915c67;8a55c88c-a051-44c2-82f6-67f8dd856e71)
+2025-08-22 02:27:20,713 - MCQ_Agent - ERROR - Failed to get embedding for chunk 7
+2025-08-22 02:27:21,473 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78831-673bd7390bf3945724490859;b130ba9b-078c-4778-a8f1-827a09dfccac)
+2025-08-22 02:27:21,474 - MCQ_Agent - ERROR - Failed to get embedding for chunk 8
+2025-08-22 02:27:21,791 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78831-293dcf8938ae5a797d6e6146;d9fcff35-0165-45b3-aef1-98f391347d26)
+2025-08-22 02:27:21,792 - MCQ_Agent - ERROR - Failed to get embedding for chunk 9
+2025-08-22 02:27:22,129 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78832-617e14e5272b4ca607de1941;70a1b462-26f1-485f-8141-1586c0a3ef01)
+2025-08-22 02:27:22,130 - MCQ_Agent - ERROR - Failed to get embedding for chunk 10
+2025-08-22 02:27:22,461 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78832-2579510b5b945fac07cf34ae;de199156-8491-4f74-b8ab-0919e1904f02)
+2025-08-22 02:27:22,462 - MCQ_Agent - ERROR - Failed to get embedding for chunk 11
+2025-08-22 02:27:22,839 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78832-79bfdbb31662b2a65d244b7c;39d3d3db-bdc8-4804-ac87-31a60378adf6)
+2025-08-22 02:27:22,839 - MCQ_Agent - ERROR - Failed to get embedding for chunk 12
+2025-08-22 02:27:23,167 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78833-0cdad3da2fe9c338045a16f8;34c4b1b2-889a-4d59-b22c-ddfb5d68ef97)
+2025-08-22 02:27:23,168 - MCQ_Agent - ERROR - Failed to get embedding for chunk 13
+2025-08-22 02:27:23,508 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78833-546204934a0959031072f702;da814010-d383-45f5-80f5-a8b1a69ba65e)
+2025-08-22 02:27:23,508 - MCQ_Agent - ERROR - Failed to get embedding for chunk 14
+2025-08-22 02:27:23,833 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78833-55daf843097cc8775b643726;023b6b61-887d-45a6-b88c-e97de7aa0063)
+2025-08-22 02:27:23,834 - MCQ_Agent - ERROR - Failed to get embedding for chunk 15
+2025-08-22 02:27:24,161 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78834-6d61db592e4f77ec5434b0b8;1005fbb5-a9a9-4b5a-bf61-cea700d9819e)
+2025-08-22 02:27:24,161 - MCQ_Agent - ERROR - Failed to get embedding for chunk 16
+2025-08-22 02:27:24,701 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78834-58460a1e379fa583195ea73f;c2824d72-2fb0-464b-a8fc-6672fbc27d6a)
+2025-08-22 02:27:24,701 - MCQ_Agent - ERROR - Failed to get embedding for chunk 17
+2025-08-22 02:27:25,188 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78835-28bde9116a0c8a5010be30b0;bf367e46-a5e7-4070-bc9a-89aa933c69b9)
+2025-08-22 02:27:25,189 - MCQ_Agent - ERROR - Failed to get embedding for chunk 18
+2025-08-22 02:27:26,070 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78835-7435b274228b0d0061b195ba;f3d96400-916e-4f9d-8634-e3e34726e822)
+2025-08-22 02:27:26,071 - MCQ_Agent - ERROR - Failed to get embedding for chunk 19
+2025-08-22 02:27:26,843 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78836-1811a2df1a0200e936c40a1e;735a038f-4190-4933-9c84-fb815bb85a6a)
+2025-08-22 02:27:26,844 - MCQ_Agent - ERROR - Failed to get embedding for chunk 20
+2025-08-22 02:27:27,652 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78837-7bc2c3ba5c12f60c036e2fde;84aab8b8-ba76-43f3-b6f1-3c56558f3ed6)
+2025-08-22 02:27:27,652 - MCQ_Agent - ERROR - Failed to get embedding for chunk 21
+2025-08-22 02:27:28,062 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78837-7ab633bc0f7370df07be7b4a;fe436c93-e437-4fa6-8ef8-b6e961d4adbe)
+2025-08-22 02:27:28,062 - MCQ_Agent - ERROR - Failed to get embedding for chunk 22
+2025-08-22 02:27:28,471 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78838-2001b1ad5e40478d7d342c2d;3e37dd12-5f92-49c1-8ff8-60080ab875a2)
+2025-08-22 02:27:28,471 - MCQ_Agent - ERROR - Failed to get embedding for chunk 23
+2025-08-22 02:27:29,252 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78839-203cb9366f7eae3b56943f39;ad6f6100-c0aa-4dbc-a2c1-6fe53ca0558b)
+2025-08-22 02:27:29,253 - MCQ_Agent - ERROR - Failed to get embedding for chunk 24
+2025-08-22 02:27:29,612 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78839-71fcbee409db789c464f5c7b;e01ed333-f385-40ac-a2e9-c9243286dbb1)
+2025-08-22 02:27:29,612 - MCQ_Agent - ERROR - Failed to get embedding for chunk 25
+2025-08-22 02:27:30,385 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883a-2f7ddcfc0de1b27e77597463;d4f32410-b71d-433d-b8eb-dab43867a3c3)
+2025-08-22 02:27:30,385 - MCQ_Agent - ERROR - Failed to get embedding for chunk 26
+2025-08-22 02:27:30,726 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883a-4ac46e1760d09fd02a2d5cb3;ebd2546e-c762-4a8b-a703-920bf2cf7b0c)
+2025-08-22 02:27:30,726 - MCQ_Agent - ERROR - Failed to get embedding for chunk 27
+2025-08-22 02:27:31,129 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883a-62ddaccd6e1333d860b6a552;2df23b4e-4dc5-4267-815e-2718a7424976)
+2025-08-22 02:27:31,129 - MCQ_Agent - ERROR - Failed to get embedding for chunk 28
+2025-08-22 02:27:31,544 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883b-3ee3e4cd37b6e27b79dc1b79;d243af3f-74d4-4fe3-bf05-5ec208abdeb4)
+2025-08-22 02:27:31,545 - MCQ_Agent - ERROR - Failed to get embedding for chunk 29
+2025-08-22 02:27:31,952 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883b-24f294dd4672ac41504377fe;3c38fcd7-3010-4687-9cbe-3f68d8177845)
+2025-08-22 02:27:31,953 - MCQ_Agent - ERROR - Failed to get embedding for chunk 30
+2025-08-22 02:27:32,286 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883c-3e2ad48046d3111f0bd7d97e;0c6e27d5-0d9d-4e45-8862-b4073db63728)
+2025-08-22 02:27:32,287 - MCQ_Agent - ERROR - Failed to get embedding for chunk 31
+2025-08-22 02:27:32,607 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883c-303cfa233f8aa14e0aa96c93;bc796514-c3a5-4a95-a49b-5b7301f324ef)
+2025-08-22 02:27:32,608 - MCQ_Agent - ERROR - Failed to get embedding for chunk 32
+2025-08-22 02:27:32,976 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883c-0972e4ce4846271f4f82d5fb;e74bc1f8-26fb-487e-865b-bebb7638df62)
+2025-08-22 02:27:32,977 - MCQ_Agent - ERROR - Failed to get embedding for chunk 33
+2025-08-22 02:27:33,748 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883d-2a0ff1c316b158a27dcf6020;1c264d4e-c0ef-4e4a-9aa1-f390041ce37c)
+2025-08-22 02:27:33,749 - MCQ_Agent - ERROR - Failed to get embedding for chunk 34
+2025-08-22 02:27:34,520 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883e-5768fb7d189fb7ca11642af0;2dea1c08-ab89-42fd-a0bb-202b1317aeff)
+2025-08-22 02:27:34,521 - MCQ_Agent - ERROR - Failed to get embedding for chunk 35
+2025-08-22 02:27:34,924 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883e-3b8373325c6e951440cc4303;1840d3a3-db31-4931-8e93-097cb55c8207)
+2025-08-22 02:27:34,924 - MCQ_Agent - ERROR - Failed to get embedding for chunk 36
+2025-08-22 02:27:35,755 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a7883f-0be2eb330ee9374f3501a0e3;7901d547-aa53-4920-b306-f03a34a6ad1f)
+2025-08-22 02:27:35,755 - MCQ_Agent - ERROR - Failed to get embedding for chunk 37
+2025-08-22 02:27:36,145 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78840-2b9cfd21609f89fa45d8e23f;6b552760-6bd9-4d1b-b65f-16b65c43312f)
+2025-08-22 02:27:36,145 - MCQ_Agent - ERROR - Failed to get embedding for chunk 38
+2025-08-22 02:27:36,471 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78840-1f042d2658d701d63593abde;5a27cbfc-da87-4810-be6b-bcfc69cee17b)
+2025-08-22 02:27:36,472 - MCQ_Agent - ERROR - Failed to get embedding for chunk 39
+2025-08-22 02:27:37,191 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78841-5eb13a0a304bd9d429b02cd7;190a39e9-7893-4d24-8f7c-90f8d6eb5a18)
+2025-08-22 02:27:37,192 - MCQ_Agent - ERROR - Failed to get embedding for chunk 40
+2025-08-22 02:27:37,999 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78841-73e6d4801d859c0a43e5a8b0;31e50915-5bd5-4956-b257-9d04857b5c6f)
+2025-08-22 02:27:38,000 - MCQ_Agent - ERROR - Failed to get embedding for chunk 41
+2025-08-22 02:27:38,815 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78842-1ec8853c4801647c568c7dfc;0dcd9d1f-2e4c-4204-b173-81197e6923c2)
+2025-08-22 02:27:38,816 - MCQ_Agent - ERROR - Failed to get embedding for chunk 42
+2025-08-22 02:27:39,154 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78843-22cee0f95a24e048310d4b72;7f652086-6ad2-4f57-b899-2d8944cd873e)
+2025-08-22 02:27:39,154 - MCQ_Agent - ERROR - Failed to get embedding for chunk 43
+2025-08-22 02:27:40,042 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78843-39c565d7557da16851e6d7c2;a22cf9bc-a707-4dab-80ba-b4b4389c1cbc)
+2025-08-22 02:27:40,043 - MCQ_Agent - ERROR - Failed to get embedding for chunk 44
+2025-08-22 02:27:40,823 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78844-14af383d4176e1161a43fc27;bea4b639-71ae-4f8e-808c-a9677bd2fac0)
+2025-08-22 02:27:40,824 - MCQ_Agent - ERROR - Failed to get embedding for chunk 45
+2025-08-22 02:27:41,217 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78845-62f933053054b0914b16de88;3fa8aebd-eed2-4baa-b7a7-84a99d7c3fc7)
+2025-08-22 02:27:41,217 - MCQ_Agent - ERROR - Failed to get embedding for chunk 46
+2025-08-22 02:27:41,679 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78845-47d3796f1c2864de4212ebd1;fa5b60ad-9d18-4882-8c9a-99fbaf5cd804)
+2025-08-22 02:27:41,680 - MCQ_Agent - ERROR - Failed to get embedding for chunk 47
+2025-08-22 02:27:42,009 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78845-3964f9c55af446a85b1bbff7;ecf6e912-2b76-44e0-b819-e7f68bf8183a)
+2025-08-22 02:27:42,009 - MCQ_Agent - ERROR - Failed to get embedding for chunk 48
+2025-08-22 02:27:42,343 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78846-6c354ae66038c327244c165c;d5d4d9f1-74da-4bf5-954a-6b16e58dcb18)
+2025-08-22 02:27:42,344 - MCQ_Agent - ERROR - Failed to get embedding for chunk 49
+2025-08-22 02:27:42,808 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78846-16bdb44047fd13af42aa6405;93dbe49e-2e4b-4578-8436-bceff1b3723c)
+2025-08-22 02:27:42,808 - MCQ_Agent - ERROR - Failed to get embedding for chunk 50
+2025-08-22 02:27:43,578 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78847-339a09e41e1858cc71e8b69a;1fb90bb5-9eaf-4a2a-82b8-371bcffc364e)
+2025-08-22 02:27:43,578 - MCQ_Agent - ERROR - Failed to get embedding for chunk 51
+2025-08-22 02:27:44,343 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78848-46208f2b36af7501208570a7;460cf07e-cb1f-401b-b047-65afcc8d02d2)
+2025-08-22 02:27:44,344 - MCQ_Agent - ERROR - Failed to get embedding for chunk 52
+2025-08-22 02:27:44,758 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78848-410995e5673dbccb1d948b33;d8985c12-443d-41c7-ab43-1dab442695ef)
+2025-08-22 02:27:44,758 - MCQ_Agent - ERROR - Failed to get embedding for chunk 53
+2025-08-22 02:27:45,164 - MCQ_Agent - ERROR - Error getting embedding: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-mpnet-base-v2 (Request ID: Root=1-68a78849-5aef60720b9abd201254fe63;a9b2bd1f-540c-45b6-b07e-b695f44580f2)
+2025-08-22 02:27:45,164 - MCQ_Agent - ERROR - Failed to get embedding for chunk 54
+2025-08-22 11:03:51,051 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-22 11:03:51,053 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-22 11:03:51,089 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-22 11:03:52,750 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 11:04:14,893 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-22 11:04:14,895 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-22 11:04:14,920 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-22 11:04:16,216 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 11:05:18,326 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1ltng0tsSPpMRnriMr3sUiaTr241QWbG8
+2025-08-22 11:05:19,932 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com
+2025-08-22 11:07:34,652 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1vdZmHF_jcJe_TDv8OJCCRuJcRR3JHr94
+2025-08-22 11:07:36,124 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com
+2025-08-22 11:08:26,719 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1JJkihF_LjbEYkRZ0NbdmHxMPA6jufrAk
+2025-08-22 11:08:27,734 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com
+2025-08-22 11:10:37,571 - MCQ_Agent - INFO - Document added to vector store with ID: addab15f-9fe4-422b-8bd7-de4cf12dc198
+2025-08-22 11:10:46,686 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1C28cIVBLTBY31sky1kjrkSQo7Or5xE2Q
+2025-08-22 11:13:18,990 - MCQ_Agent - INFO - Document added to vector store with ID: 08bb8fdc-71b1-43c9-b880-902fff1385f2
+2025-08-22 11:13:28,630 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1iQqFfUTBpO9LlXIVpcGWvneDHItSQw-k
+2025-08-22 11:17:20,201 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-22 11:17:20,202 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-22 11:17:20,221 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-22 11:17:21,656 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 18:52:20,329 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-22 18:52:20,331 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-22 18:52:20,362 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-22 18:52:21,845 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-22 18:54:57,141 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 14s47uqFSidoHdAkwUDfkqnWXdgronoj-
+2025-08-22 18:54:58,794 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com
+2025-08-22 18:59:23,534 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1xo9ubQf9iFKRfdygRENPKASkbv5kwT1J
+2025-08-22 18:59:25,971 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com

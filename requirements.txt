@@ -1,0 +1,73 @@
+# ----------------------------
+# Core API framework
+# ----------------------------
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9   # file uploads
+pydantic==2.8.2
+pydantic-settings==2.3.4
+
+# ----------------------------
+# Logging & monitoring
+# ----------------------------
+loguru==0.7.2
+
+# ----------------------------
+# LLMs & HuggingFace
+# ----------------------------
+transformers==4.44.2
+accelerate==0.34.2
+torch>=2.2.0
+sentencepiece>=0.2.0
+huggingface-hub==0.24.6
+
+# ----------------------------
+# Embeddings & RAG
+# ----------------------------
+pinecone-client==5.0.1
+langchain==0.2.13
+langchain-community==0.2.12
+
+
+# ----------------------------
+# Document processing
+# ----------------------------
+python-docx==1.1.2
+python-pptx==1.0.2
+PyMuPDF==1.24.9          # (fitz) for PDFs
+pdfplumber==0.11.4       # alternate PDF text extraction
+unstructured==0.15.8     # fallback for multiple file types
+
+# ----------------------------
+# Output PDF generation
+# ----------------------------
+reportlab==4.2.2
+
+# ----------------------------
+# External APIs
+# ----------------------------
+google-api-python-client==2.147.0   # Google Drive API
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+serpapi==0.1.5
+wikipedia-api==0.6.0
+
+# ----------------------------
+# Email (SMTP)
+# ----------------------------
+yagmail==0.15.293
+python-dotenv==1.0.1
+
+# ----------------------------
+# Utils
+# ----------------------------
+httpx==0.27.0
+requests==2.32.3
+
+# ----------------------------
+# Optional (Dev / Testing)
+# ----------------------------
+pytest==8.3.3
+black==24.8.0
+isort==5.13.2
+

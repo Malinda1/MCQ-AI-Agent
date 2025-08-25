@@ -1,0 +1,169 @@
+2025-08-23 09:26:21,988 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 09:26:21,989 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 09:26:22,035 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 09:26:23,589 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 09:31:03,667 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1GHndqR_6FLUAQXBqG_bPcpJPtzlc76Yz
+2025-08-23 09:31:05,497 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 09:33:09,881 - MCQ_Agent - INFO - Document added to vector store with ID: 62290ab7-ad80-4f33-9f73-271c88f550ea
+2025-08-23 09:33:19,599 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1uY-HQU1SQs34hCkkThOXNy3PUCmxvajl
+2025-08-23 09:45:33,552 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 09:45:33,554 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 09:45:33,575 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 09:45:35,462 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 09:46:20,866 - MCQ_Agent - INFO - Processing document upload with email: malindapremasiri@gmail.com
+2025-08-23 09:46:20,869 - MCQ_Agent - INFO - Temporary file created: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/tmpuvylrm0q.docx
+2025-08-23 09:46:20,902 - MCQ_Agent - INFO - Extracted text length: 6909 characters
+2025-08-23 09:46:29,136 - MCQ_Agent - INFO - Document added to vector store with ID: 318ca020-bc52-4c52-bcb0-a45f6dc1499e
+2025-08-23 09:46:40,281 - MCQ_Agent - INFO - Generated 6 MCQs
+2025-08-23 09:46:40,309 - MCQ_Agent - INFO - PDF generated: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/mcq_Lab Activity 3docx_20250823_094640.pdf
+2025-08-23 09:46:45,840 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1907nc3Y7dI0sr7lZArROTnAsj_Hbnz4t
+2025-08-23 09:46:45,841 - MCQ_Agent - INFO - File uploaded to Google Drive: 1907nc3Y7dI0sr7lZArROTnAsj_Hbnz4t
+2025-08-23 09:46:45,841 - MCQ_Agent - INFO - Attempting to send email to: malindapremasiri@gmail.com
+2025-08-23 09:46:47,605 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 09:46:47,606 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 09:46:47,606 - MCQ_Agent - INFO - Temporary file cleaned up
+2025-08-23 09:49:27,244 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1fCovqbmI8dIo6B34fU8obaNKUhsEJjyi
+2025-08-23 09:49:28,576 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 09:54:11,913 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 09:54:11,915 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 09:54:11,942 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 09:54:13,440 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 09:54:48,301 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1oiREZGcPNAWpjy-7nXa--uWKQ0EXxbEU
+2025-08-23 09:54:49,668 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 10:00:20,442 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 10:00:20,447 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 10:00:20,495 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 10:00:22,046 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 10:01:32,947 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 10:01:32,949 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 10:01:33,060 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 10:01:34,774 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 10:20:52,011 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 10:20:52,012 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 10:20:52,031 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 10:20:53,730 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 10:22:24,803 - MCQ_Agent - INFO - Generated 5 MCQs for domain: Artificial Intteligence
+2025-08-23 10:22:28,058 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1EfyYUpLWrymyUGRqRv1qJVQeX1E9yOaD
+2025-08-23 10:22:28,058 - MCQ_Agent - INFO - File uploaded to Google Drive: 1EfyYUpLWrymyUGRqRv1qJVQeX1E9yOaD
+2025-08-23 10:22:29,327 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 10:22:29,327 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 10:22:29,327 - MCQ_Agent - ERROR - Error generating domain MCQs: 'MCQ' object has no attribute 'get'
+2025-08-23 10:22:58,999 - MCQ_Agent - INFO - Generated 5 MCQs for domain: Artificial Intteligence
+2025-08-23 10:23:01,338 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1umrhquBGoVQK5TVhl3oM0Bttf7tJUi89
+2025-08-23 10:23:01,338 - MCQ_Agent - INFO - File uploaded to Google Drive: 1umrhquBGoVQK5TVhl3oM0Bttf7tJUi89
+2025-08-23 10:23:01,721 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 10:23:01,721 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 10:23:01,721 - MCQ_Agent - ERROR - Error generating domain MCQs: 'MCQ' object has no attribute 'get'
+2025-08-23 10:26:17,990 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 10:26:17,991 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 10:26:18,010 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 10:26:19,468 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 10:27:18,124 - MCQ_Agent - INFO - Generated 5 MCQs for domain: Artificial intelligence
+2025-08-23 10:27:21,332 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 11o5RYTUslLofKRSAsjJM53raq-jeTDhk
+2025-08-23 10:27:21,332 - MCQ_Agent - INFO - File uploaded to Google Drive: 11o5RYTUslLofKRSAsjJM53raq-jeTDhk
+2025-08-23 10:27:22,461 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 10:27:22,461 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 10:53:35,659 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 10:53:35,661 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 10:53:35,694 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 10:53:37,141 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 10:54:27,632 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1N5bSai3_z00tplf_vAtGZhDP6dlqZt_T
+2025-08-23 10:54:29,009 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com
+2025-08-23 11:55:49,553 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 11:55:49,555 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 11:55:49,575 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 11:55:51,181 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 11:57:08,366 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1FgbHvUMupnyzqWHi-gWsfPqM8r3rkbdm
+2025-08-23 11:57:08,367 - MCQ_Agent - ERROR - Error sending email to malindapremasiri@gmail.com: 'dict' object has no attribute 'mime_type'
+2025-08-23 11:59:16,727 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 11:59:16,729 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 11:59:16,755 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 11:59:18,183 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:00:04,075 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1gaXHWYJUdbRo3oT2UHK0kXfnfrXT9w3p
+2025-08-23 12:00:04,077 - MCQ_Agent - ERROR - Error sending email to malindapremasiri@gmail.com: 'dict' object has no attribute 'personalization'
+2025-08-23 12:01:19,691 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:01:19,692 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:01:19,714 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:01:21,689 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:02:06,987 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1xoPCCqByKDTKiYlNHbTkgClSVyiKvdGc
+2025-08-23 12:02:06,988 - MCQ_Agent - ERROR - Error sending email to malindapremasiri288@gmail.com: 'dict' object has no attribute 'personalization'
+2025-08-23 12:04:06,584 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:04:06,586 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:04:06,604 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:04:08,151 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:05:01,598 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1DEPe_yUC_Iet34FA_XZq5BAVzmDM7pt0
+2025-08-23 12:05:01,599 - MCQ_Agent - ERROR - Error sending email to malindapremasiri@gmail.com: Mail.add_header() takes 2 positional arguments but 3 were given
+2025-08-23 12:05:39,789 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:05:39,790 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:05:39,807 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:05:40,903 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:05:51,895 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:05:51,896 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:05:51,922 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:05:53,546 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:06:35,599 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1lC3VMzFICNl0jv8Ro_tnW8pxDLjK892c
+2025-08-23 12:06:35,602 - MCQ_Agent - ERROR - Error sending email to malindapremasiri@gmail.com: Mail.add_header() takes 2 positional arguments but 3 were given
+2025-08-23 12:09:25,626 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:09:25,628 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:09:25,649 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:09:27,333 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:10:19,619 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1YD9w710Bgw1OB8hj4Dtg-ruvpga1gpsF
+2025-08-23 12:10:21,436 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com, Status: 202
+2025-08-23 12:16:04,399 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:16:04,402 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:16:04,428 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:16:05,922 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 12:16:53,844 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1Pgiko1Lw6cMuQhoWC0W8ibPWyE7Difhe
+2025-08-23 12:16:53,846 - MCQ_Agent - ERROR - Error sending email to malindapremasiri@gmail.com: get expected at least 1 argument, got 0
+2025-08-23 12:17:11,563 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 12:17:11,564 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 12:17:11,589 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 12:17:12,929 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 13:40:54,186 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 13:40:54,189 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 13:40:54,240 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 13:40:56,236 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 13:42:32,918 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1hDDjArAHlT7qmtFMsiJmrE7MkvwImhIU
+2025-08-23 13:42:34,547 - MCQ_Agent - INFO - Email sent successfully to malindapremasiri@gmail.com, Status: 202
+2025-08-23 13:52:46,681 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['/Volumes/KODAK/folder_03/mcq_ai_agent/myenv/lib/python3.10/site-packages/pinecone_plugins'])
+2025-08-23 13:52:46,683 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2025-08-23 13:52:46,708 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2025-08-23 13:52:48,292 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-23 14:06:49,700 - MCQ_Agent - INFO - Processing document upload with email: malindall999@gmail.com
+2025-08-23 14:06:49,707 - MCQ_Agent - INFO - Temporary file created: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/tmpvhv73c3j.docx
+2025-08-23 14:06:49,772 - MCQ_Agent - INFO - Extracted text length: 29069 characters
+2025-08-23 14:06:57,676 - MCQ_Agent - INFO - Document added to vector store with ID: c7f18aab-be5f-4990-8e7f-9475087c5af8
+2025-08-23 14:07:10,347 - MCQ_Agent - INFO - Generated 10 MCQs
+2025-08-23 14:07:10,382 - MCQ_Agent - INFO - PDF generated: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/mcq_New Digital Currency Adoption Analysis docx_20250823_140710.pdf
+2025-08-23 14:07:13,477 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1Ip_vz-uQ5TSj2hnTh9HJOVWR0OkSButB
+2025-08-23 14:07:13,478 - MCQ_Agent - INFO - File uploaded to Google Drive: 1Ip_vz-uQ5TSj2hnTh9HJOVWR0OkSButB
+2025-08-23 14:07:13,478 - MCQ_Agent - INFO - Attempting to send email to: malindall999@gmail.com
+2025-08-23 14:07:15,297 - MCQ_Agent - INFO - Email sent successfully to malindall999@gmail.com, Status: 202
+2025-08-23 14:07:15,298 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 14:07:15,299 - MCQ_Agent - INFO - Temporary file cleaned up
+2025-08-23 14:09:20,262 - MCQ_Agent - INFO - Processing document upload with email: malindaall999@gmail.com
+2025-08-23 14:09:20,269 - MCQ_Agent - INFO - Temporary file created: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/tmpabt37ego.docx
+2025-08-23 14:09:20,309 - MCQ_Agent - INFO - Extracted text length: 29069 characters
+2025-08-23 14:09:24,111 - MCQ_Agent - INFO - Document added to vector store with ID: 7eb10d01-2db7-49e6-bc03-5f9f527d7a97
+2025-08-23 14:09:29,710 - MCQ_Agent - INFO - Generated 5 MCQs
+2025-08-23 14:09:29,724 - MCQ_Agent - INFO - PDF generated: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/mcq_New Digital Currency Adoption Analysis docx_20250823_140929.pdf
+2025-08-23 14:09:31,794 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1hTUmVpJACNECVGKdNl8ImVSr-OQTu6YT
+2025-08-23 14:09:31,794 - MCQ_Agent - INFO - File uploaded to Google Drive: 1hTUmVpJACNECVGKdNl8ImVSr-OQTu6YT
+2025-08-23 14:09:31,794 - MCQ_Agent - INFO - Attempting to send email to: malindaall999@gmail.com
+2025-08-23 14:09:33,344 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com, Status: 202
+2025-08-23 14:09:33,345 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 14:09:33,345 - MCQ_Agent - INFO - Temporary file cleaned up
+2025-08-23 14:27:04,819 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1kzII9BBICGxGsNqC8cxC9SUdLZLaJ1FZ
+2025-08-23 14:27:06,145 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com, Status: 202
+2025-08-23 14:29:05,756 - MCQ_Agent - INFO - Processing document upload with email: malindaall999@gmail.com
+2025-08-23 14:29:05,760 - MCQ_Agent - INFO - Temporary file created: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/tmp2n8vn0dv.docx
+2025-08-23 14:29:05,788 - MCQ_Agent - INFO - Extracted text length: 67 characters
+2025-08-23 14:29:08,806 - MCQ_Agent - INFO - Document added to vector store with ID: 85abeee7-84e4-405b-a3e3-f29bf2807b6f
+2025-08-23 14:29:16,045 - MCQ_Agent - INFO - Generated 6 MCQs
+2025-08-23 14:29:16,065 - MCQ_Agent - INFO - PDF generated: /var/folders/ng/y3jq4z5556l47rj1150jg7jm0000gn/T/mcq_Latest Research on Cloud Computing for Data Science in Healthcaredocx_20250823_142916.pdf
+2025-08-23 14:29:18,571 - MCQ_Agent - INFO - File uploaded to Google Drive with ID: 1O5ySzgc_Cl2GlgDk7d-nt5t0LR_LNt6z
+2025-08-23 14:29:18,572 - MCQ_Agent - INFO - File uploaded to Google Drive: 1O5ySzgc_Cl2GlgDk7d-nt5t0LR_LNt6z
+2025-08-23 14:29:18,572 - MCQ_Agent - INFO - Attempting to send email to: malindaall999@gmail.com
+2025-08-23 14:29:19,494 - MCQ_Agent - INFO - Email sent successfully to malindaall999@gmail.com, Status: 202
+2025-08-23 14:29:19,495 - MCQ_Agent - INFO - Email sent successfully
+2025-08-23 14:29:19,495 - MCQ_Agent - INFO - Temporary file cleaned up

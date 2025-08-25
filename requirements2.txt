@@ -1,0 +1,49 @@
+# Core ML / DL Libraries
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+sentencepiece
+scipy
+numpy
+pandas
+
+# Tokenizers & Preprocessing
+tokenizers
+sacremoses
+
+# Hugging Face Tools
+huggingface_hub
+evaluate
+peft
+trl
+bitsandbytes
+
+# Visualization & Monitoring
+matplotlib
+seaborn
+tensorboard
+tqdm
+
+# Web API & Serving
+fastapi
+uvicorn
+httpx
+python-dotenv
+loguru
+
+# Interactive / UI
+gradio
+
+# OpenAI API
+openai
+
+# Google APIs
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+
